@@ -1,0 +1,6 @@
+3. Differentiate between append () and extend () methods? 
+Ans. In Python, there are two ways to add elements to a list: extend() and append(). However, these two methods 
+serve quite different functions. In append() we add a single element to the end of a list. In extend() we add multiple 
+elements to a list. The supplied element is added as a single item at the end of the initial list by the append() method. 
+When an Iterable is supplied as a parameter, the extend() method adds each element from the Iterable to the list’s end 
+individually. It alters the initial list.

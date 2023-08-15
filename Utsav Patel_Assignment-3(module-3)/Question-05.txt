@@ -1,0 +1,8 @@
+5. How will you compare two lists? 
+Ans. Python provides multiple ways to compare the two lists. Comparison is the process when the data items of are checked against another data item of list, whether they are the same or not. 
+-> The methods of comparing two lists are given below:-
+1) The cmp() function
+2) The set() function and == operator
+3) The sort() function and == operator
+4) The collection.counter() function
+5) The reduce() and map() function
