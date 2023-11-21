@@ -1,0 +1,6 @@
+27. What is Instantiation in terms of OOP terminology?
+Ans. In OOP terminology, the creation of a new instance of the class is called instantiation. 
+Memory is allocated for that object and the class constructor runs. Programmers 
+can instantiate objects on the heap with a new keyword or on the stack as a variable 
+declaration. Whenever an object of that class is instantiated, the compiler will 
+call special class members.

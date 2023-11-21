@@ -1,0 +1,18 @@
+21. What are oops concepts? Is multiple inheritance supported in python.
+Ans. In Python, object-oriented Programming (OOPs) is a programming paradigm that uses 
+objects and classes in programming. It aims to implement real-world entities like inheritance, 
+polymorphisms, encapsulation, etc. in the programming. The main concept of OOPs is to bind the 
+data and the functions that work on that together as a single unit so that no other part of the 
+code can access this data.
+
+OOPs Concepts in Python:-
+-> Class
+-> Objects
+-> Polymorphism
+-> Encapsulation
+-> Inheritance
+-> Data Abstraction
+
+-> Multiple Inheritance in python is a well-known feature that is supported by all the major 
+object-oriented programming languages. It can be described as a process where the child class 
+or object inherits the methods and attributes from one or more parent classes.

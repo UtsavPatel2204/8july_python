@@ -1,0 +1,11 @@
+14. How many except statements can a try-except block have? Name Some
+built-in exception classes: 
+Ans. There has to be at least one except statement in python.
+These are some built-in exception classes in python:
+1. ArithmeticError
+2. IndexError
+3. ValueError
+4. SyntaxError
+5. ZeroDivisionError
+6. RuntimeError
+7. MemoryError

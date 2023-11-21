@@ -1,0 +1,2 @@
+15. When will the else part of try-except-else be executed?
+Ans. When no exceptoion occurs during the runtime the else part will be execured.
