@@ -1,0 +1,36 @@
+1. Why Django should be used for web-development? Explain how you
+can create a project in Django?
+Ans. 
+-> Django is the best framework for web applications, as it allows developers to use modules for faster 
+development. As a developer, you can make use of these modules to create apps, websites from an existing
+source. It speeds up the development process greatly, as you do not have to code everything from scratch.
+-> Using Django, you can create professional web apps and websites in a short window. The platform is known 
+for its advanced functionality like admin panels, authentication support, comment boxes, file upload support, 
+contact forms, app management, and more.
+-> There is a large collection of modules that you can use for Django website development projects. It is among 
+the best framework for web development, according to developers in the community due to its simplicity and rich 
+pool of features.
+
+-> Step 1: Install Django Ensure you have Python installed on your system. Open a terminal or command prompt and use pip to install Django:
+                           pip install django 
+-> Step 2: Create a new Django project In the terminal, navigate to the directory where you want to create your Django project. Use the following command to create a new project:
+                           django-admin startproject projectname 
+- Replace projectname with the desired name of your Django project. This command will create a new directory with the project structure.
+-> Step 3: Navigate to the project directory Change to the newly created project directory:
+                           cd projectname 
+-> Step 4: Create a new Django app Django projects are composed of multiple apps. To create a new app, run the following command:
+                           python manage.py startapp appname 
+- Replace appname with the desired name of your Django app. This command will create a new directory containing the app's structure.
+-> Step 5: Register the app in settings Open the settings.py file inside your project's directory and add the name of the app to the INSTALLED_APPS list:
+INSTALLED_APPS = [ 
+    # other apps... 
+    'appname', 
+] 
+-> Step 6: Define a model (optional) Inside your newly created app's directory, you can define models in the models.py file. Models represent your application's data structure and are the foundation of Django's ORM (Object Relational Mapping).
+-> Step 7: Create the database table Run the following command to create the database table(s) for your models:
+                           python manage.py makemigrations 
+                           python manage.py migrate 
+-> Step 8: Create a view and template (optional) Views are Python functions that handle HTTP requests and return HTTP responses. You can create a view and associated HTML templates inside your app's directory.
+-> Step 9: Configure URLs In your app's directory, create a file named urls.py. Define the URL patterns for your app's views.
+-> Step 10: Run the development server To test your Django project, run the development server using the following command:
+                            python manage.py runserver 
